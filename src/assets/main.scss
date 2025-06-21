@@ -1,6 +1,8 @@
 @use './base.scss' as *;
 
 #app {
-  // max-width: 1280px;
+  max-inline-size: var(--layout-desktop);
   margin: 0 auto;
+  padding-inline: 2.6rem;
+  position: relative;
 }

@@ -1,0 +1,11 @@
+@use 'sass:math';
+
+// Body Copy
+
+$font-size: math.div(13, 16) * 1rem;
+
+// Font
+
+$family: 'Barlow-Semi-Condensed';
+$weight-1: 500;
+$weight-2: 600;

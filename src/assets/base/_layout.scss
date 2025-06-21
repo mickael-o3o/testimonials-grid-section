@@ -1,0 +1,4 @@
+@use '../utils/functions';
+
+$mobile: functions.calc-rem(375);
+$desktop: functions.calc-rem(1440);
