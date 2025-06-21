@@ -23,7 +23,10 @@ import testimonialsData from '@/data/testimonialsData.json'
     <p class="p-footer__attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">mickael-o3o</a>.
+      Coded by
+      <a href="https://github.com/mickael-o3o/testimonials-grid-section.git" target="_blank"
+        >mickael-o3o</a
+      >.
     </p>
   </footer>
 </template>
@@ -48,7 +51,7 @@ import testimonialsData from '@/data/testimonialsData.json'
 
   &__quotation-image {
     position: absolute;
-    inset-block-start: 28.5%;
+    inset-block-start: 24%;
     inset-inline-start: 37.5%;
     opacity: 0;
 
