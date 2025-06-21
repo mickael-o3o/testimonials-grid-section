@@ -56,7 +56,7 @@ import testimonialsData from '@/data/testimonialsData.json'
     opacity: 0;
 
     @media (min-width: 62.5rem) {
-      opacity: 0.3;
+      opacity: 0.7;
     }
   }
 }

@@ -30,7 +30,7 @@ const { background, textColorBlack, userPicture, userName, colSpan, rowSpan } = 
         width="56px"
         height="56px"
       />
-      <section class="c-testimoials-card__user-identity">
+      <div class="c-testimoials-card__user-identity">
         <h3 class="c-testimoials-card__user-name">{{ userName }}</h3>
         <p
           class="c-testimoials-card__user-status"
@@ -38,9 +38,9 @@ const { background, textColorBlack, userPicture, userName, colSpan, rowSpan } = 
         >
           Verified Graduate
         </p>
-      </section>
+      </div>
     </header>
-    <section class="c-testimoials-card__body">
+    <div class="c-testimoials-card__body">
       <p
         class="c-testimoials-card__message"
         :class="{ 'c-testimoials-card__message--black': textColorBlack }"
@@ -53,7 +53,7 @@ const { background, textColorBlack, userPicture, userName, colSpan, rowSpan } = 
       >
         {{ messageDetails }}
       </p>
-    </section>
+    </div>
   </article>
 </template>
 
